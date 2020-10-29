@@ -1,0 +1,112 @@
+{
+  "categorias": [
+    {
+      "nome": "papel",
+      "descricao": "macio",
+      "id": 1
+    },
+    {
+      "nome": "BOPP",
+      "descricao": "macio",
+      "id": 2
+    }
+  ],
+  "procedimentos": [
+    {
+      "nome": "Etiqueta térmica 25x40s",
+      "valor": "10",
+      "id": 1,
+      "categoria_id": 1
+    },
+    {
+      "nome": "sss",
+      "valor": "55",
+      "id": 2,
+      "categoria_id": 1
+
+    },
+    {
+      "nome": "jakes",
+      "valor": "eee",
+      "id": 3,
+      "categoria_id": 2
+    }
+    
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "nome": "fjakis@gmail.com",
+      "cpf": "12345678901",
+      "email": "emailfalso@kkk.com",
+      "telefone": 40028922,
+      "sexo": "M"
+    },
+    {
+      "id": 2,
+      "nome": "joao",
+      "cpf": "12345678902",
+      "email": "emailfalso2@kkk.com",
+      "telefone": 40028922,
+      "sexo": "M"
+    },
+    {
+      "id": 3,
+      "nome": "saggioro",
+      "cpf": "12345678903",
+      "email": "emailfalso3@kkk.com",
+      "telefone": 40028922,
+      "sexo": "M"
+    },
+    {
+      "id": 4,
+      "nome": "jakes",
+      "cpf": "12345678904",
+      "email": "emailfalso4@kkk.com",
+      "telefone": 40028922,
+      "sexo": "M"
+    }
+  ],
+  "profissionais": [
+    {
+      "id": 1,
+      "nome": "jakes",
+      "cpf": "12345678904",
+      "email": "emailfalso4@kkk.com",
+      "telefone": 40028922,
+      "conselho_nome": "CRM",
+      "conselho_numero": "113456",
+      "especialidade": "clinico geral"     
+    },
+    {
+      "id": 2,
+      "nome": "saggioro",
+      "cpf": "12345678954",
+      "email": "emailfalso4@kkk.com",
+      "telefone": 40028922,
+      "conselho_nome": "CRM",
+      "conselho_numero": "123226",
+      "especialidade": "clinico geral"     
+    },
+    {
+      "id": 3,
+      "nome": "joao",
+      "cpf": "12345678923",
+      "email": "emailfalso4@kkk.com",
+      "telefone": 40028922,
+      "conselho_nome": "CRM",
+      "conselho_numero": "123456",       
+      "especialidade": "clinico geral"     
+    }
+  ],
+  "atendimento": [
+    {
+      "profissional_id": 1,
+      "paciente_id": 2,
+      "procedimento_id": 2,
+      "data": "2020-01-01",
+      "tipo_de_pagamento": "dinheiro",
+      "obervacao": "nada"
+    }
+  ]
+}
