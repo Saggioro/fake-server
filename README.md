@@ -1,4 +1,4 @@
 ## Rodar o banco fake
-para rodar o serve:
+para rodar o server:
 
 npm start
